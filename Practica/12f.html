@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            body{
+                font-family: Arial;
+                font-size: 30px;
+            }
+            .header{
+                display: flex;
+                justify-content: space-between;
+                background-color: rgb(128, 8, 158);
+                height: 50px;
+                align-items: center;
+                padding: 5px 10px 5px 10px;
+            }
+            .left-side{
+                flex: 1;
+                /* background-color: lightblue; */
+                color: white;
+                text-align: left;
+                max-width: 200px;
+            }
+            .center{
+                flex: 3;
+                /* background-color: lightgreen; */
+                text-align: center;
+                padding-right: 15px;
+            }
+            .right-side{
+                flex:1;
+                color: white;
+                
+                /* background-color: lightblue; */
+                text-align: center;
+                border-color: white;
+                border-width: 2px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                border-style: solid;
+                max-width: 200px;
+            }
+            .search-bar{
+                width: 100%;
+                max-width: 900px;
+                padding: 5px 1px 1px 8px;
+                font-size: 20px;
+                border-radius: 20px;
+                border-style: solid;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="header">
+
+            <div class="left-side">
+                Home
+            </div>
+            <div class="center">
+                <input class="search-bar" placeholder="Search" type="text">
+            </div>
+            <div class="right-side">
+                Download
+            </div>
+
+        </div>
+    </body>
+
+</html>
